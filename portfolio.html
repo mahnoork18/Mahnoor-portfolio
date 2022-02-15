@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/utilities.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
+
+</head>
+<body>
+        <!--header-->
+        <header>
+            <nav class="navbar">
+                <div class="container flex">
+                    <div class="right">
+                    <a href="index.html" class="logo-link">
+                        <div class="monogram flex">MK</div>
+                    </a>
+                <a href="portfolio.html" class="link">Portfolio</a>
+                <a href="about.html" class="link">About</a>
+    </div>
+    <div class="left">
+        <div class="work-links">
+            <a href="#" class="social-links">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="#" class="social-links">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+    </div>
+                </div>
+            </nav>
+    </header>
+    <!---portfolio cards-->
+    <div class="portfolio-page">
+        <h2 class="title">Portfolio</h2>
+        <div class="container flex-col">
+     <div class="box fylo ">
+         <img src="./assets/project-2.png" alt="project-img">
+         <h2 class="subtitle">Fylo Dark Theme Page</h2>
+         <a href="https://fylo-dark-theme-landing-page-mahnoork18.vercel.app/" class="btn-primary" target="_blank"> View</a>
+         <div class="tech-stack">
+             <h4>Tech:</h4>
+             <p>html</p>
+             <p>css</p>
+         </div>
+     </div>
+     <div class="box bootcamp">
+        <img src="./assets/project-3.png" alt="project-img">
+        <h2 class="subtitle">BootCamp 2022 </h2>
+        <a href="https://bootcamp-2022.vercel.app/" class="btn-primary" target="_blank"> View</a>
+        <div class="tech-stack">
+            <h4>Tech:</h4>
+            <p>html</p>
+            <p>css</p>
+            <p>bootsrap</p>
+        </div>
+    </div>
+    <div class="box starbucks">
+        <img src="./assets/project-4.png" alt="project-img">
+        <h2 class="subtitle">Starbucks Clone </h2>
+        <a href="https://starbucks-clone-murex.vercel.app/" class="btn-primary" target="_blank"> View</a>
+        <div class="tech-stack">
+            <h4>Tech:</h4>
+            <p>html</p>
+            <p>css</p>
+            <p>js</p>
+        </div>
+    </div>
+    <div class="box sunny">
+        <img src="./assets/project-1.jpg" alt="project-img">
+        <h2 class="subtitle">Sunny-side Landing Page</h2>
+        <a href="https://sunny-side-landing-page-sigma.vercel.app/" class="btn-primary" target="_blank"> View</a>
+        <div class="tech-stack">
+            <h4>Tech:</h4>
+            <p>html</p>
+            <p>css</p>
+            <p>js</p>
+        </div>
+    </div>
+    <div class="box huddle">
+        <img src="./assets/project-5.png" alt="project-img">
+        <h2 class="subtitle">Huddle Landing Page </h2>
+        <a href="https://huddle-curved-landing-page.vercel.app/" class="btn-primary" target="_blank"> View</a>
+        <div class="tech-stack">
+            <h4>Tech:</h4>
+            <p>html</p>
+            <p>css</p>
+        </div>
+    </div>
+    <div class="box multi">
+        <img src="./assets/project-6.png" alt="project-img">
+        <h2 class="subtitle">Griddy Multi Page </h2>Website
+        <a href="https://grid-multipage.vercel.app/" class="btn-primary" target="_blank"> View</a>
+        <div class="tech-stack">
+            <h4>Tech:</h4>
+            <p>html</p>
+            <p>css</p>
+        </div>
+    </div>
+     
+     </div>
+     </div>
+    
+
+     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-alt-circle-up"></i></button>
+
+    <!--footer-->
+<footer class="footer">
+    &copy; 2022 Mahnoor Khan
+    <small class="byline">Create.Evolve.Grow</small>
+</footer>
+<script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+</body>
+</html>

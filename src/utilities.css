@@ -1,0 +1,46 @@
+.container{
+    max-width: 100%;
+    margin: 1rem 0.5rem;
+    padding: 1rem 2rem;
+    overflow: hidden;
+}
+.flex{
+    display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3em;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.card {
+    height: 60vh;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    margin-left: 0em;
+    margin-top: 1em;
+    margin-bottom: 4em;
+    overflow: hidden;
+    text-align: center;
+
+}
+@media(max-width:768px){
+    .card{
+        margin-top: -2em;
+        background-size: contain;
+        margin-top: 1em;
+    }
+    
+}
