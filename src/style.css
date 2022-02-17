@@ -315,6 +315,8 @@ margin-left: 10px;
 			background: rgba(0, 0, 0, 0.2);			
 			position: absolute;
 			top: 40%;
+			padding: 0.6rem;	
+
 	
 
 
@@ -376,6 +378,8 @@ margin-left: 10px;
 			background: rgba(0, 0, 0, 0.2);			
 			position: absolute;
 			top: 110%;
+			padding: 0.6rem;	
+
 		}
 		/* starbucks */
 		.starbucks .btn-primary{
@@ -388,6 +392,8 @@ margin-left: 10px;
 			background: rgba(0, 0, 0, 0.2);			
 			position: absolute;
 			top: 188%;
+			padding: 0.6rem;	
+
 		}
 		/* sunny */
 		.sunny .btn-primary{
@@ -396,6 +402,7 @@ margin-left: 10px;
 			left: 40%;
 		
 		}	.sunny .subtitle{
+			padding: 0.6rem;	
 			color: #fff;
 			background: rgba(0, 0, 0, 0.2);			
 			position: absolute;
@@ -408,6 +415,7 @@ margin-left: 10px;
 			left: 40%;
 		
 		}	.huddle .subtitle{
+			padding: 0.6rem;	
 			color: #fff;
 			background: rgba(0, 0, 0, 0.2);			
 			position: absolute;
@@ -427,6 +435,8 @@ margin-left: 10px;
 				background: rgba(0, 0, 0, 0.2);			
 				position: absolute;
 				top: 385%;
+				padding: 0.6rem;	
+
 			}
 			/* about page */
 			.about-section{
